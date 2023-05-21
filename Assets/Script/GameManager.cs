@@ -21,7 +21,8 @@ public class GameManager : MonoBehaviour
         Transform aa = transform.Find("Canvars");
         ph = aa.transform.Find("PlayerHelth").GetComponent<Image>();
     }
-
+ 
+    
     // Update is called once per frame
     void Update()
     {
